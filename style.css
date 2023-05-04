@@ -23,17 +23,17 @@ a.externo::after {
 
 
 header {
-    height: 200px;
-    padding: 40px 0px 0px 0px;
+    min-height: 150px;
+   text-align: center;
     background-image: linear-gradient(to bottom, #41D976, #1B5936);
     box-shadow: 2px 2px 10px 1px black;
+    padding-top: 30px;
 }
 header > h1 {
     font-family: 'bebasneue';
     font-weight: 100;
     color: white;
-    text-align: center;
-    margin: 0px 10px 25px 10px;
+    margin: 0px 0px 20px 10px;
     text-shadow: 1px 1px 2px  black;
     font-size: 2.8em ;
 
@@ -42,15 +42,15 @@ header > p {
     text-align: center;
     color: rgba(255, 255, 255, 0.438);
     font-weight: lighter;
-    width: 360px;
+    max-width: 600px;
     margin: auto;
+    padding: 0px 10px 0px 10px;
 }
 nav > a {
     text-decoration: none;
     text-align: left;
     color: white;
     font-weight: bold;
-    margin: 7px;
     padding: 10px 10px 10px 10px;
     transition-duration: 0.5s;
     
