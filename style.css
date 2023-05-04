@@ -58,6 +58,7 @@ nav > a {
 nav {
     padding-bottom: 10px;
     background-color: #1B5936;
+    min-width: 312px;
 
 }
 nav > a:hover {
